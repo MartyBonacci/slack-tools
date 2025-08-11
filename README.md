@@ -1,0 +1,23 @@
+# Slack Tools
+This is a python project for Slack tools that:
+- use Slack API
+- create a group of users
+- create a channel with each of the users in the group
+- or create the channel with the new users first then add them to the group
+- create a private channel for each of the users in the group, another specified user (assistant instructor) and myself
+- create a section
+- add these channels to a section
+- the new users will be loaded from a csv file
+- the csv file will contain the following columns:
+  - email
+  - first_name
+  - last_name
+- the csv file will be formatted similar to ./sample-csv-files/*.csv
+- unfortunately, the csv file may not be formatted correctly
+- Do not load any users below any row containing "DO NOT SEND AN EMAIL TO ANYONE BELOW THIS LINE."
+- the csv file will be loaded from a file dialog
+- a gui interface for the above
+- the gui interface will be used to select the file to load the users from
+- the gui interface will show the new users, group and the channels to be created
+- the gui interface will allow the user to edit the new users, group and the channels to be created
+- the gui interface will allow the user to confirm the actions to be taken
